@@ -1,11 +1,15 @@
 package com.example.agenda_contatos.model;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 public class Contato {
 
     private Integer id;
     private String nome;
+    @NotBlank(message = "O email é obrigatório e não pode ser vazio")
+    @Email(message = "O formato do email é inválido")
     private String email;
     @Pattern(regexp = "\\d{11}", message = "Digite apenas os 11 números (DDD + Número)")
     private String telefone;
