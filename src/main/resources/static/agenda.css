@@ -1,0 +1,196 @@
+/* Sobrescrever as cores primary, info, success e warning do Bootstrap */
+:root {
+    --bs-primary: #9747ff;
+    --bs-primary-rgb: 151, 71, 255;
+    --bs-info: #EB2F93;
+    --bs-info-rgb: 235, 47, 147;
+    --bs-success: #3BCA4A;
+    --bs-success-rgb: 59, 202, 74;
+    --bs-warning: #ffb806;
+    --bs-warning-rgb: 255, 184, 6;
+}
+
+/* Cores primary customizadas */
+.btn-primary {
+    --bs-btn-bg: #9747ff;
+    --bs-btn-border-color: #9747ff;
+    --bs-btn-hover-bg: #8533ff;
+    --bs-btn-hover-border-color: #8533ff;
+    --bs-btn-focus-shadow-rgb: 151, 71, 255;
+    --bs-btn-active-bg: #7a1fff;
+    --bs-btn-active-border-color: #7a1fff;
+    --bs-btn-disabled-bg: #9747ff;
+    --bs-btn-disabled-border-color: #9747ff;
+}
+
+/* Cores info customizadas */
+.btn-info {
+    --bs-btn-bg: #EB2F93;
+    --bs-btn-border-color: #EB2F93;
+    --bs-btn-hover-bg: #d42581;
+    --bs-btn-hover-border-color: #d42581;
+    --bs-btn-focus-shadow-rgb: 235, 47, 147;
+    --bs-btn-active-bg: #c21b6f;
+    --bs-btn-active-border-color: #c21b6f;
+    --bs-btn-disabled-bg: #EB2F93;
+    --bs-btn-disabled-border-color: #EB2F93;
+    color: #fff !important;
+}
+
+/* Cores success customizadas */
+.btn-success {
+    --bs-btn-bg: #3BCA4A;
+    --bs-btn-border-color: #3BCA4A;
+    --bs-btn-hover-bg: #32b340;
+    --bs-btn-hover-border-color: #32b340;
+    --bs-btn-focus-shadow-rgb: 59, 202, 74;
+    --bs-btn-active-bg: #2a9c36;
+    --bs-btn-active-border-color: #2a9c36;
+    --bs-btn-disabled-bg: #3BCA4A;
+    --bs-btn-disabled-border-color: #3BCA4A;
+}
+
+/* Cores warning customizadas */
+.btn-warning {
+    --bs-btn-bg: #ffb806;
+    --bs-btn-border-color: #ffb806;
+    --bs-btn-hover-bg: #e6a605;
+    --bs-btn-hover-border-color: #e6a605;
+    --bs-btn-focus-shadow-rgb: 255, 184, 6;
+    --bs-btn-active-bg: #cc9404;
+    --bs-btn-active-border-color: #cc9404;
+    --bs-btn-disabled-bg: #ffb806;
+    --bs-btn-disabled-border-color: #ffb806;
+    color: #000;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #ffb806;
+    --bs-btn-border-color: #ffb806;
+    --bs-btn-hover-bg: #ffb806;
+    --bs-btn-hover-border-color: #ffb806;
+    --bs-btn-hover-color: #000;
+    --bs-btn-focus-shadow-rgb: 255, 184, 6;
+    --bs-btn-active-bg: #ffb806;
+    --bs-btn-active-border-color: #ffb806;
+    --bs-btn-active-color: #000;
+}
+
+/* Botões outline personalizados */
+.btn-outline-primary {
+    --bs-btn-color: #9747ff;
+    --bs-btn-border-color: #9747ff;
+    --bs-btn-hover-bg: #9747ff;
+    --bs-btn-hover-border-color: #9747ff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-focus-shadow-rgb: 151, 71, 255;
+    --bs-btn-active-bg: #9747ff;
+    --bs-btn-active-border-color: #9747ff;
+    --bs-btn-active-color: #fff;
+}
+
+.btn-outline-info {
+    --bs-btn-color: #EB2F93;
+    --bs-btn-border-color: #EB2F93;
+    --bs-btn-hover-bg: #EB2F93;
+    --bs-btn-hover-border-color: #EB2F93;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-focus-shadow-rgb: 235, 47, 147;
+    --bs-btn-active-bg: #EB2F93;
+    --bs-btn-active-border-color: #EB2F93;
+    --bs-btn-active-color: #fff;
+}
+
+.text-primary {
+    color: #9747ff !important;
+}
+
+.bg-primary {
+    background-color: #9747ff !important;
+}
+
+.border-primary {
+    border-color: #9747ff !important;
+}
+
+.text-info {
+    color: #EB2F93 !important;
+}
+
+.bg-info {
+    background-color: #EB2F93 !important;
+}
+
+.border-info {
+    border-color: #EB2F93 !important;
+}
+
+.text-success {
+    color: #3BCA4A !important;
+}
+
+.bg-success {
+    background-color: #3BCA4A !important;
+}
+
+.border-success {
+    border-color: #3BCA4A !important;
+}
+
+.text-warning {
+    color: #ffb806 !important;
+}
+
+.bg-warning {
+    background-color: #ffb806 !important;
+    color: #000;
+}
+
+.border-warning {
+    border-color: #ffb806 !important;
+}
+
+/* Badge info customizado */
+.badge.bg-info {
+    background-color: #EB2F93 !important;
+    color: white;
+}
+
+/* Badge success customizado */
+.badge.bg-success {
+    background-color: #3BCA4A !important;
+    color: white;
+}
+
+/* Badge warning customizado */
+.badge.bg-warning {
+    background-color: #ffb806 !important;
+    color: #000;
+}
+
+/* Hover states para melhor UX */
+.btn-outline-primary:hover {
+    background-color: #9747ff;
+    border-color: #9747ff;
+    color: white;
+}
+
+.btn-outline-info:hover {
+    background-color: #EB2F93;
+    border-color: #EB2F93;
+    color: white;
+}
+
+/* Estilo adicional para tabela */
+.table-hover tbody tr:hover {
+    background-color: rgba(151, 71, 255, 0.05);
+}
+
+/* Modal header com a nova cor primary */
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title .text-primary {
+    color: #9747ff !important;
+}
